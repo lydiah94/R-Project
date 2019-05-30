@@ -10,11 +10,11 @@ library(plotly)
 
 #create connection to db
 con <- DBI::dbConnect(RPostgreSQL::PostgreSQL(),
-                       dbname = "twigadms",
-                      user ="handel_owour",
-                      password = "8p68B6Gz",
-                      host = "replica.dmsv1.db.twiga.tech",
-                      port = 5432)
+                       dbname = "xxxx",
+                      user ="xxxx",
+                      password = "xxxxx",
+                      host = "xxxx",
+                      port = xxxx)
 
 #view tables
 
